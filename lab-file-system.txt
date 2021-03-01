@@ -221,7 +221,10 @@ drwxr-xr-x 1 kevin kevin 4096 Feb 23 20:13 aardvark
 
 What command did you use?
 ----------
-
+kevin@LAPTOP-8QDDRV63:~$ cd bar
+kevin@LAPTOP-8QDDRV63:~/bar$ mkdir baz
+kevin@LAPTOP-8QDDRV63:~/bar$ cd baz
+kevin@LAPTOP-8QDDRV63:~/bar/baz$ rkdir baz
 
 
 ==========
@@ -229,7 +232,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd baz
 
 
 ==========
@@ -237,44 +240,45 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 23. What command is used to delete empty directories?
 ----------
-
+rmdir 
 
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
-
+ls -b
 
 
 ==========
 26. What's the shortcut for home directory?
 ----------
-
+cd desktop
 
 
 ==========
 27. What's a pathname?
 ----------
-
+is the general form of the name of the file or directory 
 
 
 ==========
 28. What's a directory?
 ----------
-
+is where you type all the commands in vs code 
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/home/kevin
